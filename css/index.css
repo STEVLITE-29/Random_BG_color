@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   padding: 20px; 
+}
+
+.container{
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#color-box {
+    width: 600px;
+    height: 600px;
+    background-color: #000000;
+    border-radius: 10px;
+} 
+
+#change-color-btn {
+    background-color: #000000;
+    border: 8px solid;
+    border-color: #000000;
+    padding: 20px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
